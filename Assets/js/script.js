@@ -1,5 +1,4 @@
-console.log("Hey this the JS!");
-
+//Setting vaira
 var questions = [
     {
         title: "What is your favorite color?",

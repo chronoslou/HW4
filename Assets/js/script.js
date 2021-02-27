@@ -1,32 +1,32 @@
-//Setting vaira
+//Setting variable
 var questions = [
     {
-        title: "What is your favorite color?",
-        choices: ["red","blue","green","pink"],
-        answer: "green"
+        title: "What does NaN represent?",
+        choices: ["None","Nothing","Not a Norm","Not a Number"],
+        answer: "Not a Number",
     },
     {
-        title: "What is your 2nd favorite color?",
-        choices: ["red","blue","green","pink"],
-        answer: "blue"
+        title: "What are NOT types of variables?",
+        choices: ["Var","Const","Let","State"],
+        answer: "State",
     },
     {
-        title: "What is your third favorite color?",
-        choices: ["red","blue","green","pink"],
-        answer: "red"
+        title: "What is a data type?",
+        choices: ["String","Letter","Baloon","Acronym"],
+        answer: "String",
     },
 ];
 
+//Setting for timer
 var timer;
 var time = 90;
-
 var startButton = document.querySelector("#start");
 
 function initiateQuiz() {
     //hide start screen
     document.querySelector("#start-screen").setAttribute("class","hide");
 
-    //unhide the questions
+    //unhide the questions class
     document.querySelector("#questions").removeAttribute("class");
 
     //show time
@@ -72,7 +72,7 @@ function handleQuestionClick(event) {
     showQuestion();
 
     //check if we should end the quiz becasue it is the last question
-    if (questionIndex === questions.legnth) {
+    if (questionIndex === questions.length) {
         endQuiz();
     } else {
         showQuestion();
@@ -104,6 +104,7 @@ function showQuestion() {
     }
 }
 
+
 function endQuiz() {
     //stop the timer
     clearInterval(timer);
@@ -116,3 +117,6 @@ function endQuiz() {
 }
 
 startButton.addEventListener("click", initiateQuiz);
+
+
+score = JSON.parse(localStorage.getItem ("highscores")0 [];

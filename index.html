@@ -8,36 +8,42 @@
     <!--Link to stylesheet-->
     <link rel="stylesheet" href="./Assets/css/style.css"/>
 </head>
-<body>
-    <!--link to highscores page-->
-    <div class="allscores"><a href="highscores.html">View Highscores</a></div>
-    <!--Time container-->
-    <div class="timer">Time: <span id="time">0</span></div>
+<body >
+    <div class=section>
+      <!--link to highscores page-->
+      <div class="allscores"><a href="highscores.html">View Highscores</a></div>
+      <!--Time container-->
+      <div class="timer">Time: <span id="time">0</span></div>
     <!--main container-->
-    <div class="wrapper">
-        <!--instructions container-->
-    <div id="start-screen" class="start">
+    </div>
+    <div class="grid">
+      <!--instructions container-->
+      <div id="start-screen" class="start">
         <h1>Coding Quiz</h1>
           <p>Try to answer the following code-related questions within the time
             limit. Keep in mind that incorrect answers will penalize your
             score/time by 10 seconds!</p>
-        <!--Start Container-->
+            <!--Start Container-->
         <button id="start">Start Quiz</button>
       </div>
       <!--Container for questions-->
       <div id="questions" class="hide">
-        <!-- this is where questions should dynamically render -->
+      <!-- this is where questions should dynamically render -->
+        <div class="buttons">
+          <button id="btn0"><span id="choice0"></span></button>
+          <button id="btn1"><span id="choice1"></span></button>
+          <button id="btn2"><span id="choice2"></span></button>
+          <button id="btn3"><span id="choice3"></span></button>
+        </div>
       </div>
       <!--Ending Container-->
       <div id="end-screen" class="hide">
         <h2>All done!</h2>
-        <p>Your score is: <span id="final-score"></span>.</p>
-        <p>
+          <p>Your score is: <span id="final-score"></span>.</p>
+          <p>
           Enter initials: <input type="text" id="initials" max="3" />
-          <button id="submit">Submit</button>
-        </p>
-      </div>
-      <div id="feedback" class="feedback hide"></div>
+        <button id="submit">Submit</button>
+          </p>
     </div>
     <!--Link to script-->
     <script src="./Assets/js/script.js"></script>

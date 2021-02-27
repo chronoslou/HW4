@@ -1,30 +1,26 @@
 # Homework 04 - Code Quiz
 
 ## Link to site
-* [Live Link](https://chronoslou.github.io/HW3/) - ADD PROJECT LINK
+* [Live Link](https://chronoslou.github.io/HW3/) - 
+* [Repo README Link](https://chronoslou.github.io/HW3/) -
 
 ## Description
 
-App needs to dynamically update HTML and CSS via JS
-App needs to be responsive
-App needs to be timed
-App needs to store high scores in string and parse
-App nees to have a start button
-When presented with a question, the timer needs to start
-When a question is submitted, then you go to the next one
-if answer is wrong then time is subtracted by 10 sec
-
+This program is a JavaScript (JS) based app that will quiz user on their knowledge of Javascript. This is a multiple choice timed quiz. 
 
 ## Usage
 
+The app will should perfom the following logic:
 
-
-### Password Criteria and Prompts
-
-
+* Quiz will be timed for 90 seconds
+* Quiz will store high scores in a string and parse out the information. 
+* The scores will be stored in a separate page
+* Timer will star once the Start Button is clicked
+* When a question is submitted, then you go to the next one
+* If the option/choice selected is incorrect then, time is subtracted by 10 seconds
 
 ## Preview of App 
 
 * This is how the app looks
 
-![Screenshot](./Assets/Screen-Shot.png) 
+![Screenshot](./Assets/Screen Shot 2021-02-26 at 11.51.27 PM.png)   

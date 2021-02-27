@@ -16,12 +16,10 @@ var questions = [
         answer: "String",
     },
 ];
-
 //Setting for timer
 var timer;
 var time = 90;
 var startButton = document.querySelector("#start");
-
 function initiateQuiz() {
     //hide start screen
     document.querySelector("#start-screen").setAttribute("class","hide");
@@ -49,10 +47,8 @@ function initiateQuiz() {
     //show the question
     showQuestion(); 
 } 
-
 var questionIndex = 0;
 var score = 0;
-
 function handleQuestionClick(event) {
 
     var target = event.target.textContent;
@@ -78,7 +74,6 @@ function handleQuestionClick(event) {
         showQuestion();
     }
 }
-
 function showQuestion() {
     //create the question html
     var questionHTML = `
@@ -103,8 +98,6 @@ function showQuestion() {
         questionChoiceArray[i].addEventListener("click", handleQuestionClick);
     }
 }
-
-
 function endQuiz() {
     //stop the timer
     clearInterval(timer);
@@ -115,8 +108,4 @@ function endQuiz() {
     //show the end screen
     document.querySelector("#end-screen").removeAttribute("class");
 }
-
 startButton.addEventListener("click", initiateQuiz);
-
-
-score = JSON.parse(localStorage.getItem ("highscores")0 [];

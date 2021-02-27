@@ -115,14 +115,7 @@ background-color: #f3edfc;
   top: 10px;
   left: 10px;
 }
-.feedback {
-  font-style: italic;
-  font-size: 120%;
-  margin-top: 20px;
-  padding-top: 10px;
-  color: gray;
-  border-top: 2px solid #ccc;
-}
+
 
 /*Class for timer*/
 .timer {

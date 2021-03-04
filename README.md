@@ -23,5 +23,5 @@ The app will should perfom the following logic:
 
 * This is how the app looks
 
-![Screenshot](./Assets/Screen Shot 2021-02-26 at 11.51.27 PM.png)   
+![Screenshot](./Assets/appimage.png)
 

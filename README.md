@@ -1,8 +1,8 @@
 # Homework 04 - Code Quiz
 
 ## Link to site
-* [Live Link](https://chronoslou.github.io/HW3/) - 
-* [Repo README Link](https://chronoslou.github.io/HW3/) -
+* [Live Link](https://chronoslou.github.io/HW4/) - 
+* [Repo README Link](https://chronoslou.github.io/HW4/) -
 
 ## Description
 
